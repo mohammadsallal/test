@@ -13,8 +13,8 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
-const test = mysql.createConnection(con)
-test.connect(err => {if(err)throw err});
+// const test = mysql.createConnection(con)
+// test.connect(err => {if(err)throw err});
 
 app.post('/register' , register)
 
