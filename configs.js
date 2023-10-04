@@ -1,8 +1,8 @@
 const con = {
-    host:'localhost',
+    host:'145.14.145.53',
     user:'id21353654_testdb1',
     password:'P@ssw00rd',
-    port:3306,
+    port:21,
     database:"id21353654_testdb1"
 }
 const port = 3000;

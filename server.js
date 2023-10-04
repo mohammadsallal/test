@@ -14,7 +14,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 const test = mysql.createConnection(con)
-test.connect(err => {if(err)throw err});
+test.connect(err => {if(err)throw err ; console.log('Connected')});
 
 app.post('/register' , register)
 
