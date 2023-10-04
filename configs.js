@@ -1,8 +1,9 @@
 const con = {
     host:'localhost',
-    user:'root',
-    password:'2468',
+    user:'id21353654_testdb1',
+    password:'P@ssw00rd',
     port:3306,
+    database:"id21353654_testdb1"
 }
 const port = 3000;
 const CheckStartedServer = ()=>{console.log(`Server Started on port: ${port}`)}
